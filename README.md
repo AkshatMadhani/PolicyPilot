@@ -54,7 +54,7 @@
 
 5. Run the application:
    ```bash
-   python app.py
+   python chatbot.py
    ```
 
 ---
