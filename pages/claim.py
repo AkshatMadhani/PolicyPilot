@@ -69,6 +69,3 @@ if st.button("Get Claim Assistance"):
             st.write("Uploaded Files:")
             for uploaded_file in uploaded_files:
                 st.write(uploaded_file.name)
-                if uploaded_file.type == "application/pdf":
-                    text = extract_text_from_pdf(uploaded_file)
-                    st.write(f"Extracted Text from PDF: {text}")
