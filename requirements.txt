@@ -1,0 +1,10 @@
+streamlit
+langchain
+google_genai
+pypdf2
+faiss-cpu
+generativeai
+phidata
+exa
+exa_py
+groq
