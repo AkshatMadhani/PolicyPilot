@@ -9,3 +9,4 @@ exa
 exa_py
 groq
 langchain_google_genai
+langchain_community
