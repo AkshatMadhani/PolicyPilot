@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 EXA_API_KEY=st.secrets("EXA_API_KEY"),
-GROQ_API_KEY=st.secrets("GROQ_API_KEY)                      
+GROQ_API_KEY=st.secrets("GROQ_API_KEY")                      
 policy_recommender_agent = Agent(
     name="Policy Recommender",
     model=Groq(id='llama-3.1-8b-instant'),
