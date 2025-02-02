@@ -8,7 +8,7 @@ from PyPDF2 import PdfReader
 
 load_dotenv()
 EXA_API_KEY=st.secrets("EXA_API_KEY"),
-GROQ_API_KEY=st.secrets("GROQ_API_KEY)
+GROQ_API_KEY=st.secrets("GROQ_API_KEY")
 
 claim_agent = Agent(
     name="Claim Assistance Agent",
